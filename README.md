@@ -1,20 +1,27 @@
 # CryptoBasket
 
 ## Overview
-This project is a decentralized marketplace inspired by Amazon, built on the Ethereum blockchain using smart contracts. Users can list products and purchase them using cryptocurrency, with transactions recorded on the blockchain. The marketplace is powered by Solidity smart contracts, and images are hosted on the InterPlanetary File System (IPFS) for decentralized storage. The front-end is built with React.js, and blockchain interactions are handled via Ethers.js.
+This project is a decentralized marketplace built on the Ethereum blockchain, allowing users to list and purchase products using cryptocurrency. It mimics e-commerce platforms like Amazon but utilizes blockchain technology, smart contracts, and decentralized file storage to handle transactions and store product images securely.
 
-Users can connect their wallets (e.g., MetaMask) to interact with the marketplace, allowing for seamless cryptocurrency transactions. The marketplace can be deployed to any Ethereum-compatible blockchain network.
+## Features
+- Blockchain-Powered: All transactions occur on the Ethereum blockchain using Solidity smart contracts.
+- Cryptocurrency Payments: Users can buy and sell items using Ether (ETH) or other compatible cryptocurrencies.
+- Decentralized Storage: Product images are stored and referenced using IPFS (InterPlanetary File System), ensuring decentralized file storage.
+- Smart Contracts: Manages product listings, purchases, and orders.
 
-## Technology Stack & Tools
+## Technology Stack
+- Solidity: For writing smart contracts.
+- ReactJS: Frontend framework for building the marketplace UI.
+- Ethers.js: Blockchain interaction for communicating with the Ethereum network.
+- IPFS: Decentralized file storage for hosting product images.
 
-- Solidity (Writing Smart Contracts & Tests)
-- Javascript (React & Testing)
-- [Hardhat](https://hardhat.org/) (Development Framework)
-- [Ethers.js](https://docs.ethers.io/v5/) (Blockchain Interaction)
-- [React.js](https://reactjs.org/) (Frontend Framework)
+## Development Tools
+- Hardhat: A powerful development environment for Ethereum smart contracts. Hardhat provides local Ethereum blockchain (Hardhat Network) for testing, as well as tools for compiling, testing, deploying, and debugging smart contracts.
+- Mocha & Chai: Used for testing smart contracts with assertion functions like expect, should, and assert from the Chai library.
 
-## Requirements For Initial Setup
-- Install [NodeJS](https://nodejs.org/en/)
+## Getting Started
+### Prerequisites
+- NodeJS: Make sure to install Node.js before setting up the project.
 
 ## Setting Up
 ### 1. Clone/Download the Repository
