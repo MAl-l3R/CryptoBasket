@@ -1,7 +1,7 @@
 # CryptoBasket
 
 ## Overview
-This project is a decentralized marketplace built on the Ethereum blockchain, allowing users to list and purchase products using cryptocurrency. It mimics e-commerce platforms like Amazon but utilizes blockchain technology, smart contracts, and decentralized file storage to handle transactions and store product images securely.
+This project is a decentralized marketplace built on the Ethereum blockchain, allowing users to list and purchase products using cryptocurrency. It mimics e-commerce platforms like Amazon but utilizes blockchain technology and smart contracts to handle transactions.
 
 ## Features
 - Blockchain-Powered: All transactions occur on the Ethereum blockchain using Solidity smart contracts.
